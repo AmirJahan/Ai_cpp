@@ -43,7 +43,7 @@ void Ai::Start()
     }
 
     // take some (e.g., 5, 10, or 20) from sqaures randomly and put in blockd ones
-    for (int i = 0; i < 50; i++)
+    for (int i = 0; i < 20; i++)
     {
         int randRow = GetRandomValue(0, (int)(grid.size()) - 1);
         int randCol = GetRandomValue(0, (int)(grid[randRow].size()) - 1);
@@ -59,7 +59,6 @@ void Ai::Start()
     pointA.fillColor = GREEN;
     pointA.blocked = true; // this just so the color renders
 
-
     randRow = GetRandomValue(0, (int)(grid.size()) - 1);
     randCol = GetRandomValue(0, (int)(grid[randRow].size()) - 1);
     pointB = grid[randRow][randCol];
@@ -69,7 +68,6 @@ void Ai::Start()
 
 
 
-    
 }
 
 void Ai::UpdateAndDraw()
@@ -79,7 +77,7 @@ void Ai::UpdateAndDraw()
             grid[i][j].Draw();
 
 
-    
+
 
 
         // Check if the "R" key is pressed
