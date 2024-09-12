@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     game
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __ZN5CppAI4MainEv, symObjAddr: 0x0, symBinAddr: 0x100003B84, symSize: 0x68 }
+  - { offsetInCU: 0x2E10, offset: 0x2E10, size: 0x8, addend: 0x0, symName: __ZN5CppAI4MainEv, symObjAddr: 0x0, symBinAddr: 0x100003B84, symSize: 0x68 }
+  - { offsetInCU: 0x2E36, offset: 0x2E36, size: 0x8, addend: 0x0, symName: __ZN5CppAI5StartEv, symObjAddr: 0x68, symBinAddr: 0x100003BEC, symSize: 0x58 }
+  - { offsetInCU: 0x2E5C, offset: 0x2E5C, size: 0x8, addend: 0x0, symName: __ZN5CppAI6UpdateEv, symObjAddr: 0xC0, symBinAddr: 0x100003C44, symSize: 0x30 }
+  - { offsetInCU: 0x2E82, offset: 0x2E82, size: 0x8, addend: 0x0, symName: __ZN5CppAI4Node12newRandomLocE7Vector2, symObjAddr: 0xF0, symBinAddr: 0x100003C74, symSize: 0xA0 }
+  - { offsetInCU: 0x2EB4, offset: 0x2EB4, size: 0x8, addend: 0x0, symName: __ZN5CppAI12EvalCurFrameEv, symObjAddr: 0x190, symBinAddr: 0x100003D14, symSize: 0x10 }
+  - { offsetInCU: 0x2EDA, offset: 0x2EDA, size: 0x8, addend: 0x0, symName: __ZN5CppAI12DrawCurFrameEv, symObjAddr: 0x1A0, symBinAddr: 0x100003D24, symSize: 0x6C }
+  - { offsetInCU: 0x2F00, offset: 0x2F00, size: 0x8, addend: 0x0, symName: __ZN5CppAI4Node4DrawEv, symObjAddr: 0x20C, symBinAddr: 0x100003D90, symSize: 0x58 }
+  - { offsetInCU: 0x26, offset: 0x2F54, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003DE8, symSize: 0x3C }
+  - { offsetInCU: 0x29F9, offset: 0x5927, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003DE8, symSize: 0x3C }
+  - { offsetInCU: 0x2A21, offset: 0x594F, size: 0x8, addend: 0x0, symName: __ZN5CppAIC1Ev, symObjAddr: 0x3C, symBinAddr: 0x100003E24, symSize: 0x2C }
+  - { offsetInCU: 0x2A4B, offset: 0x5979, size: 0x8, addend: 0x0, symName: __ZN5CppAIC2Ev, symObjAddr: 0x68, symBinAddr: 0x100003E50, symSize: 0x50 }
+  - { offsetInCU: 0x2A75, offset: 0x59A3, size: 0x8, addend: 0x0, symName: __ZN5CppAI4NodeC1Ev, symObjAddr: 0xB8, symBinAddr: 0x100003EA0, symSize: 0x2C }
+  - { offsetInCU: 0x2A9F, offset: 0x59CD, size: 0x8, addend: 0x0, symName: __ZN5CppAI4NodeC2Ev, symObjAddr: 0xE4, symBinAddr: 0x100003ECC, symSize: 0x3C }
+...
